@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev #开发环境
+  application:
+    name: microservicecloud-config-gnawococ-dev
+---
+spring:
+  profiles: test #开发环境
+  application:
+    name: microservicecloud-config-gnawococ-test
+#保存为utf-8格式
